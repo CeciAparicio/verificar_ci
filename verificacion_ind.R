@@ -28,7 +28,6 @@ calculo<-function(ci){
 }
 
 
-# Define UI for application that draws a histogram
 ui <- fluidPage( theme = shinytheme("cosmo"),
     
     titlePanel("Verificador de documento de identidad"),
@@ -46,6 +45,5 @@ server <- function(input, output, session) {
 }
 
 
-# Run the application 
 shinyApp(ui = ui, server = server)
 
